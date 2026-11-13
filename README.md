@@ -104,7 +104,7 @@ Semua keluaran di bawah adalah hasil asli dari program (urutan 7 pertanyaan: tab
 
 ### Kasus 1: rantai panjang R2 → R3 → R4 → R6
 
-![Kasus uji 1](screenshot/kasus1.png)
+![Kasus uji 1](Kasus1.png)
 
 ```text
 Fakta awal: ventilasi berdebu, kipas berisik, lemot saat panas
@@ -126,7 +126,7 @@ Alasan:
 
 ### Kasus 2: dua kesimpulan sekaligus
 
-![Kasus uji 2](screenshot/kasus2.png)
+![Kasus uji 2](Kasus2.png)
 
 ```text
 Fakta awal: banyak tab/aplikasi terbuka, disk hampir penuh
@@ -151,7 +151,7 @@ Alasan:
 
 Gejala ada, tetapi penyebab awalnya (ventilasi berdebu atau dipakai di kasur) tidak diketahui, sehingga R3 tidak terpenuhi (mode `dan` butuh kedua syarat).
 
-![Kasus uji 3](screenshot/kasus3.png)
+![Kasus uji 3](Kasus3.png)
 
 ```text
 Fakta awal: kipas berisik, lemot saat panas
