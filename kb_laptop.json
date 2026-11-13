@@ -1,0 +1,88 @@
+{
+"judul": "Penyebab laptop lambat atau panas",
+  "batas": "Aturan berasal dari dokumentasi Microsoft Support dan Dell Support, berfokus pada laptop Windows (dan perangkat Dell untuk bagian pendinginan). Belum tentu cocok untuk macOS, Linux, atau merek lain. Hasilnya saran awal, bukan diagnosis; jika masalah berlanjut setelah dibersihkan, bawa ke teknisi.",
+  "sumber": {
+    "S1": "Tips to improve PC performance in Windows, Microsoft Support, https://support.microsoft.com/en-us/help/4002019",
+    "S2": "How to Prevent Overheating: Tips for Cooling Your PC or Laptop, Dell Support, https://www.dell.com/support/contents/article/product-support/self-support-knowledgebase/battery-and-power/fan",
+    "S3": "How to Stop Computer and Laptop Overheating and Shut Down Issues, Dell Support, https://www.dell.com/support/kbdoc/en-us/000130867"
+  },
+  "aturan": [
+    {
+      "id": "R1",
+      "jika": [
+        "banyak tab/aplikasi terbuka",
+        "program startup banyak"
+      ],
+      "mode": "atau",
+      "maka": "beban sistem tinggi",
+      "sumber": "S1"
+    },
+    {
+      "id": "R2",
+      "jika": [
+        "ventilasi berdebu",
+        "dipakai di kasur/bantal"
+      ],
+      "mode": "atau",
+      "maka": "aliran udara terhambat",
+      "sumber": "S2, S3"
+    },
+    {
+      "id": "R3",
+      "jika": [
+        "aliran udara terhambat",
+        "kipas berisik"
+      ],
+      "mode": "dan",
+      "maka": "pendinginan buruk",
+      "sumber": "S3"
+    },
+    {
+      "id": "R4",
+      "jika": [
+        "pendinginan buruk",
+        "lemot saat panas"
+      ],
+      "mode": "dan",
+      "maka": "thermal throttling",
+      "sumber": "S2, S3"
+    },
+    {
+      "id": "R5",
+      "jika": [
+        "disk hampir penuh"
+      ],
+      "mode": "atau",
+      "maka": "ruang penyimpanan rendah",
+      "sumber": "S1"
+    },
+    {
+      "id": "R6",
+      "jika": [
+        "thermal throttling",
+        "pendinginan buruk"
+      ],
+      "mode": "dan",
+      "maka": "saran: bersihkan ventilasi dan kipas",
+      "sumber": "S3"
+    },
+    {
+      "id": "R7",
+      "jika": [
+        "beban sistem tinggi"
+      ],
+      "mode": "atau",
+      "maka": "saran: tutup aplikasi dan matikan program startup",
+      "sumber": "S1"
+    },
+    {
+      "id": "R8",
+      "jika": [
+        "ruang penyimpanan rendah"
+      ],
+      "mode": "atau",
+      "maka": "saran: bebaskan ruang disk",
+      "sumber": "S1"
+    }
+  ]
+}
