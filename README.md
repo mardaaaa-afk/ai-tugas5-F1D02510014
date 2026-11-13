@@ -168,4 +168,5 @@ Aturan dalam program ini berasal dari dokumentasi resmi Microsoft Support dan De
 
 ## 7. Penggunaan Alat Bantu AI
 
-"Claude (Anthropic) dipakai untuk membantu menyusun README ini dan memverifikasi keluaran kasus uji. Pemilihan topik, pencarian sumber, penulisan aturan, dan kode mesin inferensi dikerjakan sendiri." J
+"Claude (Anthropic) dipakai untuk membantu menyusun README ini dan memverifikasi keluaran kasus uji. Pemilihan topik, pencarian sumber, penulisan aturan, dan kode mesin inferensi dikerjakan sendiri." 
+TERIMA KASIH 
